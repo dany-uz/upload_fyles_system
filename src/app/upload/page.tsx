@@ -123,6 +123,7 @@ export default function UploadPage() {
                                                 type="text"
                                                 id="title"
                                                 name="title"
+                                                placeholder="Ingrese el título del proyecto"
                                                 className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                                                 aria-describedby={errors.title && touched.title ? "title-error" : undefined}
                                                 aria-invalid={errors.title && touched.title ? "true" : "false"}
@@ -142,6 +143,7 @@ export default function UploadPage() {
                                                 as="textarea"
                                                 id="description"
                                                 name="description"
+                                                placeholder="Ingrese la descripción del proyecto"
                                                 rows={4}
                                                 className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
                                                 aria-describedby={errors.description && touched.description ? "description-error" : undefined}
